@@ -75,6 +75,7 @@
     <div id="navigation">
         <button id="prev-button">Anterior</button>
         <button id="next-button">Próxima</button>
+        <button id="summary-button">SUMÁRIO</button> <!-- Botão SUMÁRIO -->
         <button id="print-page">Imprimir Página</button>
     </div>
     
@@ -89,6 +90,7 @@
         const iframe = document.getElementById("book-iframe");
         const prevButton = document.getElementById("prev-button");
         const nextButton = document.getElementById("next-button");
+        const summaryButton = document.getElementById("summary-button"); // Botão SUMÁRIO
         const printPageButton = document.getElementById("print-page");
         
         let currentPageIndex = 0;
@@ -115,6 +117,11 @@
         
         nextButton.addEventListener("click", () => {
             navigateToPage(currentPageIndex + 1);
+        });
+        
+        summaryButton.addEventListener("click", () => { // Botão SUMÁRIO
+            currentPageIndex = 2; // Índice da página do sumário
+            updateIframe();
         });
         
         updateIframe();
