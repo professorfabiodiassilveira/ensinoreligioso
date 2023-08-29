@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title>EXPLORANDO CORES E DIFERENÇAS MÁGICAS</title>
+	<style type="text/css">
+		body {
+			font-family: 'Comic Sans MS', cursive, sans-serif;
+			background-color: #f6f6f6;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: 100vh;
+			flex-direction: column;
+		}
+		.container {
+			background-color: white;
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+			text-align: left;
+		}
+		h1 {
+			color: #ff5722;
+			font-size: 20pt;
+			text-transform: uppercase;
+			text-align: center;
+			margin-bottom: 10px;
+		}
+		p {
+			color: #333;
+			text-align: justify;
+			margin: 15px 0;
+			font-size: 18pt;
+			text-transform: uppercase;
+		}
+		.hero-image {
+			width: 6cm;
+			height: 6cm;
+			object-fit: cover;
+			float: right;
+			margin-left: 20px;
+			border: 3px solid #ff5722;
+			border-radius: 10px;
+		}
+		.draw-image {
+			width: 6cm;
+			height: 6cm;
+			object-fit: cover;
+			float: left;
+			margin-right: 20px;
+			border: 3px solid #4caf50;
+			border-radius: 10px;
+		}
+		.activity {
+			margin-top: 20px;
+			clear: both;
+		}
+		.activity h2 {
+			color: #4caf50;
+			font-size: 20pt;
+			text-transform: uppercase;
+			text-align: center;
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>EXPLORANDO CORES E DIFERENÇAS MÁGICAS</h1>
+		<div class="activity">
+			<img src="https://colorindo.org/wp-content/uploads/2022/07/dicas-de-vetores-2-300x300.jpg" class="T" alt="Super-Herói">
+			<p>- NO MUNDO, TEMOS CORES MÁGICAS.<p>
+                        <p>- MUITAS PESSOAS ACREDITAM QUE O MUNDO FOI CRIADO POR UM “TRANSCENDENTE”.<p>
+                        <p>- O QUE É “TRANSCENDENTE”?<p>
+                        <p>- É ALGO INCRÍVEL E ESPECIAL (DEUS, DEUSES, ORIXÁS, ENTIDADES, ESPÍRITOS).<p>
+                        <p>- DEPENDE DA CRENÇA DE CADA UM.<p>
+                        <p>- CORES SÃO COMO MAGIA, DEIXAM TUDO BONITO.<p>
+                        <p>- PESSOAS SÃO DIFERENTES, ÚNICAS, COMO PEÇAS ESPECIAIS.<p>
+                        <p>- RESPEITAR DIFERENÇAS É MÁGICO E BOM. É MISTURAR CORES PARA PINTAR BEM.<p>
+                        <p>- TRANSCENDENTE DEU CORES E PESSOAS, PRESENTES ÚNICOS.<p>
+                        <p>- COMPARTILHAR AMOR É PARTE DESSE PRESENTE.<p>
+                        <p>- CUIDAR DAS CORES E DAS PESSOAS, ESPALHAR O QUE É BOM.<p>
+                        <p>- ASSIM, O MUNDO FICA MAIS BONITO COM NOSSA MAGIA ÚNICA.!<p>
+		</div>
+		<div class="activity">
+			<img src="https://1.bp.blogspot.com/-TkP4uRZEi-Y/W23k8emLlMI/AAAAAAABWYU/iz-qHqBo9fkRQtNAs8KsOMMlv6Tvr9AhwCLcBGAs/s1600/desenhos-de-planeta-Terra-para-colorir-pintaar-imprimir-meio-ambiente-planetas-sistema-solar-Terra-mundo-mundi-globo-terrestre-dia-da-terra-atividade%2B%25281%2529.jpg" class="draw-image" alt="PLANETa">
+			
+		</div>
+		<div class="activity">
+			<h2>Atividade</h2>
+			<p>AGORA VOCÊ É O CRIADOR</p>
+		</div>
+		<p>DESENHE UM MUNDO E PINTE BEM COLORIDO, COM ARVORES E ANIMAIS.</p>
+	</div>
+</body>
+</html>
